@@ -21,7 +21,9 @@ The core architecture includes the following main components:
 - **Slave Select Logic**: Selects target slave devices during communication.
 - **Interrupt Support**: Enables signaling to external systems upon transfer completion.
 
-> *A diagram illustrating the architecture of the SPI Master Core can be added here.*
+
+![image](https://github.com/user-attachments/assets/106bd329-7b8f-4c0a-97e8-600285c48690)
+
 
 ---
 
@@ -61,7 +63,7 @@ Three key test cases were used to verify different SPI configurations:
 - LSB-first transfer (`LSB = 1`)
 - Word length: 4 bits
 
-> *Test waveform image for Test Case 1*
+
 
 ### Test Case 2
 - Transmit on falling edge (`TX_NEG = 1`)
@@ -69,7 +71,7 @@ Three key test cases were used to verify different SPI configurations:
 - MSB-first transfer (`LSB = 0`)
 - Word length: 4 bits
 
-> *Test waveform image for Test Case 2*
+
 
 ### Test Case 3
 - Transmit on rising edge (`TX_NEG = 0`)
@@ -77,7 +79,7 @@ Three key test cases were used to verify different SPI configurations:
 - LSB-first transfer (`LSB = 1`)
 - Word length: 4 bits
 
-> *Test waveform image for Test Case 3*
+
 
 ---
 
